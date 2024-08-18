@@ -13,7 +13,6 @@ apiClient.interceptors.request.use(
 	async (config) => {
 		// 获取token
 		let token = localStorage.getItem(tokenKey);
-
 		// 如果没有token，提示用户输入
 		if (!token) {
 			token = await promptUserForToken();

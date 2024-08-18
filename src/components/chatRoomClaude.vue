@@ -104,7 +104,7 @@
 </template>
 
 <script setup lang="ts">
-	import { ref, onMounted, watch, nextTick } from "vue";
+	import { ref, onMounted, watch, nextTick, computed } from "vue";
 	import { io, Socket } from "socket.io-client";
 	import axios from "axios";
 	import EmojiPicker from "vue3-emoji-picker";

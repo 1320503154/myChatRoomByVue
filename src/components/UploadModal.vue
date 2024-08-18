@@ -57,7 +57,7 @@
 			});
 
 			const fileUrl = response.data.url;
-			emit("close", fileUrl);
+			emit("close", fileUrl); //发送close事件,带上fileURl参数.
 		} catch (error) {
 			console.error("Upload failed:", error);
 			alert("File upload failed. Please try again.");

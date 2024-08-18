@@ -1,5 +1,4 @@
 <script setup lang="ts">
-	import HelloWorld from "./components/HelloWorld.vue";
 	import chatRoom from "./components/chatRoom.vue";
 </script>
 
